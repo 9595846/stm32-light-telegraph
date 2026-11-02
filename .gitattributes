@@ -1,0 +1,6 @@
+* text=auto
+*.uvprojx text eol=crlf
+*.uvoptx text eol=crlf
+*.png binary
+*.doc binary
+*.hex text eol=lf

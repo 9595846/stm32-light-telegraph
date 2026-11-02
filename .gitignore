@@ -1,0 +1,13 @@
+# Keil build products and local state
+firmware/Objects/
+firmware/Listings/
+*.uvguix.*
+*.uvgui.*
+*.bak
+*.tmp
+*.exe
+__pycache__/
+*.pyc
+firmware/Previews/*.bin
+.DS_Store
+Thumbs.db

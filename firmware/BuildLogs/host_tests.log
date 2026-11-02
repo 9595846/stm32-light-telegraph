@@ -1,0 +1,1 @@
+PASS: independent optical SOS, inverted polarity, 300/1000ms, blocked path, wrap, ADC loss, contrast/noise rejection, stop, scheduling fault, glitch, external RX, bounded buffer, invalid pulse.

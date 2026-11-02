@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="2070" viewBox="0 0 1800 2070">
+<rect width="100%" height="100%" fill="#eef3f7"/>
+<text x="45" y="76" font-family="Microsoft YaHei, sans-serif" font-size="46" fill="#163047">光影电报机 · 完整接线图</text>
+<text x="47" y="120" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">STM32F103C8T6  |  按丝印找引脚，图中位置不代表开发板排针顺序</text>
+<text x="47" y="159" font-family="Microsoft YaHei, sans-serif" font-size="23" fill="#163047">绿色：信号    红色：电源    深灰：GND    每一行连接两端；所有 GND 共地</text>
+<rect x="45" y="195" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="63" y="234" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">01  OLED · 四针 I²C</text>
+<text x="63" y="271" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PB10</text>
+<path d="M250 263 L310 263" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="325" y="271" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">SCL</text>
+<text x="63" y="304" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PB11</text>
+<path d="M250 296 L310 296" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="325" y="304" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">SDA</text>
+<text x="63" y="337" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">3.3V</text>
+<path d="M250 329 L310 329" stroke="#c64a3f" stroke-width="3" fill="none"/>
+<text x="325" y="337" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">VCC</text>
+<text x="63" y="370" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M250 362 L310 362" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="325" y="370" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<text x="63" y="439" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">PB10/PB11 上拉先检查模块板载电路</text>
+<rect x="620" y="195" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="638" y="234" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">02  IMU · 0x70 兼容设备</text>
+<text x="638" y="271" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PB6</text>
+<path d="M825 263 L885 263" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="900" y="271" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">SCL</text>
+<text x="638" y="304" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PB7</text>
+<path d="M825 296 L885 296" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="900" y="304" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">SDA</text>
+<text x="638" y="337" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">3.3V</text>
+<path d="M825 329 L885 329" stroke="#c64a3f" stroke-width="3" fill="none"/>
+<text x="900" y="337" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">VCC</text>
+<text x="638" y="370" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M825 362 L885 362" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="900" y="370" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<text x="638" y="403" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M825 395 L885 395" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="900" y="403" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">AD0</text>
+<text x="638" y="439" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">与 OLED 分别走两条 I²C 总线</text>
+<rect x="1195" y="195" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="1213" y="234" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">03  光敏模块 · 接收光</text>
+<text x="1213" y="271" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PA1</text>
+<path d="M1400 263 L1460 263" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="1475" y="271" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">AO</text>
+<text x="1213" y="304" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">3.3V</text>
+<path d="M1400 296 L1460 296" stroke="#c64a3f" stroke-width="3" fill="none"/>
+<text x="1475" y="304" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">VCC</text>
+<text x="1213" y="337" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M1400 329 L1460 329" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="1475" y="337" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<text x="1213" y="439" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">DO 不接；让光敏元件朝向 LED1</text>
+<rect x="45" y="475" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="63" y="514" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">04  旋转编码器</text>
+<text x="63" y="551" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PA6</text>
+<path d="M250 543 L310 543" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="325" y="551" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">A / CLK</text>
+<text x="63" y="584" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PA7</text>
+<path d="M250 576 L310 576" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="325" y="584" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">B / DT</text>
+<text x="63" y="617" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M250 609 L310 609" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="325" y="617" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">C / GND</text>
+<text x="63" y="650" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">3.3V</text>
+<path d="M250 642 L310 642" stroke="#c64a3f" stroke-width="3" fill="none"/>
+<text x="325" y="650" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">VCC（若有）</text>
+<text x="63" y="719" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">SW 按压脚不接；仅裸编码器无 VCC</text>
+<rect x="620" y="475" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="638" y="514" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">05  KEY1 · 标定</text>
+<text x="638" y="551" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PB12</text>
+<path d="M825 543 L885 543" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="900" y="551" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">有效触点 1</text>
+<text x="638" y="584" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M825 576 L885 576" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="900" y="584" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">有效触点 2</text>
+<text x="638" y="719" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">按下才导通，勿选始终相通的一对脚</text>
+<rect x="1195" y="475" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="1213" y="514" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">06  KEY2 · 停止</text>
+<text x="1213" y="551" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PB15</text>
+<path d="M1400 543 L1460 543" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="1475" y="551" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">有效触点 1</text>
+<text x="1213" y="584" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M1400 576 L1460 576" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="1475" y="584" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">有效触点 2</text>
+<text x="1213" y="719" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">同时按多键时，停止优先</text>
+<rect x="45" y="755" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="63" y="794" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">07  KEY3 · 发 SOS</text>
+<text x="63" y="831" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PB8</text>
+<path d="M250 823 L310 823" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="325" y="831" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">有效触点 1</text>
+<text x="63" y="864" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M250 856 L310 856" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="325" y="864" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">有效触点 2</text>
+<text x="63" y="999" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">光路标定成功后才能发送</text>
+<rect x="620" y="755" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="638" y="794" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">08  KEY4 · 翻页</text>
+<text x="638" y="831" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PB9</text>
+<path d="M825 823 L885 823" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="900" y="831" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">有效触点 1</text>
+<text x="638" y="864" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M825 856 L885 856" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="900" y="864" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">有效触点 2</text>
+<text x="638" y="999" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">首页 → 光敏数据 → IMU 诊断</text>
+<rect x="1195" y="755" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="1213" y="794" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">09  MH-FMD 蜂鸣器</text>
+<text x="1213" y="831" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PB14</text>
+<path d="M1400 823 L1460 823" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="1475" y="831" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">I/O</text>
+<text x="1213" y="864" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">3.3V</text>
+<path d="M1400 856 L1460 856" stroke="#c64a3f" stroke-width="3" fill="none"/>
+<text x="1475" y="864" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">VCC</text>
+<text x="1213" y="897" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M1400 889 L1460 889" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="1475" y="897" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<text x="1213" y="999" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">低电平触发；接收新字符时短响</text>
+<rect x="45" y="1035" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="63" y="1074" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">10  LED1 · 发射灯</text>
+<text x="63" y="1111" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PA0</text>
+<path d="M250 1103 L310 1103" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="325" y="1111" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">1kΩ → LED 阳极</text>
+<text x="63" y="1144" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M250 1136 L310 1136" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="325" y="1144" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">LED 阴极</text>
+<text x="63" y="1279" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">每颗灯独立限流；不要直连 GPIO</text>
+<rect x="620" y="1035" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="638" y="1074" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">11  LED2 · 状态灯</text>
+<text x="638" y="1111" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PB0</text>
+<path d="M825 1103 L885 1103" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="900" y="1111" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">1kΩ → LED 阳极</text>
+<text x="638" y="1144" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M825 1136 L885 1136" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="900" y="1144" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">LED 阴极</text>
+<text x="638" y="1279" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">10kΩ 可试但可能暗；别照到接收端</text>
+<rect x="1195" y="1035" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="1213" y="1074" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">12  SG90 · 本阶段 PWM 关闭</text>
+<text x="1213" y="1111" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PA8</text>
+<path d="M1400 1103 L1460 1103" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="1475" y="1111" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">信号</text>
+<text x="1213" y="1144" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">独立 5V +</text>
+<path d="M1400 1136 L1460 1136" stroke="#c64a3f" stroke-width="3" fill="none"/>
+<text x="1475" y="1144" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">舵机电源正极</text>
+<text x="1213" y="1177" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">独立电源 GND</text>
+<path d="M1400 1169 L1460 1169" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="1475" y="1177" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">舵机负极 / 共地</text>
+<text x="1213" y="1279" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">线序以已调通接法为准；首次可断电</text>
+<rect x="45" y="1315" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="63" y="1354" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">13  USB 转串口 · 3.3V 逻辑</text>
+<text x="63" y="1391" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PA9 / TX</text>
+<path d="M250 1383 L310 1383" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="325" y="1391" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">RXD</text>
+<text x="63" y="1424" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">PA10 / RX</text>
+<path d="M250 1416 L310 1416" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="325" y="1424" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">TXD</text>
+<text x="63" y="1457" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<path d="M250 1449 L310 1449" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="325" y="1457" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<text x="63" y="1559" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">VCC 不接；115200 / 8N1 / 无流控</text>
+<rect x="620" y="1315" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="638" y="1354" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">14  ST-Link · 专用 SWD 口</text>
+<text x="638" y="1391" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">板上 SWDIO</text>
+<path d="M825 1383 L885 1383" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="900" y="1391" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">SWDIO</text>
+<text x="638" y="1424" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">板上 SWCLK</text>
+<path d="M825 1416 L885 1416" stroke="#21806b" stroke-width="3" fill="none"/>
+<text x="900" y="1424" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#21806b">SWCLK</text>
+<text x="638" y="1457" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">板上 GND</text>
+<path d="M825 1449 L885 1449" stroke="#485866" stroke-width="3" fill="none"/>
+<text x="900" y="1457" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#485866">GND</text>
+<text x="638" y="1490" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">板上 3.3V</text>
+<path d="M825 1482 L885 1482" stroke="#c64a3f" stroke-width="3" fill="none"/>
+<text x="900" y="1490" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">3.3V 输出</text>
+<text x="638" y="1559" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">沿用已确认供电；总负载余量待测</text>
+<rect x="1195" y="1315" width="550" height="260" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="1213" y="1354" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">15  IMU 总线上拉 · 已安装</text>
+<text x="1213" y="1391" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">3.3V</text>
+<path d="M1400 1383 L1460 1383" stroke="#c64a3f" stroke-width="3" fill="none"/>
+<text x="1475" y="1391" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">10kΩ → PB6</text>
+<text x="1213" y="1424" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">3.3V</text>
+<path d="M1400 1416 L1460 1416" stroke="#c64a3f" stroke-width="3" fill="none"/>
+<text x="1475" y="1424" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#c64a3f">10kΩ → PB7</text>
+<text x="1213" y="1559" font-family="Microsoft YaHei, sans-serif" font-size="19" fill="#586c7b">两只分别连接，不能把 PB6/PB7 短接</text>
+<rect x="45" y="1610" width="1710" height="210" rx="12" fill="#163047" stroke="#163047" stroke-width="2"/>
+<text x="70" y="1659" font-family="Microsoft YaHei, sans-serif" font-size="29" fill="#ffffff">供电与第一次验证</text>
+<text x="70" y="1705" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#ffffff">① 舵机使用独立 5V，独立电源 GND 与 STM32 GND 相连。独立 5V 不接主控 3.3V。</text>
+<text x="70" y="1746" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#ffffff">② 第一次只验证光路，舵机先断电；ST-Link 带整套模块的供电能力尚未实测。</text>
+<text x="70" y="1787" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#ffffff">③ 1kΩ 优先给发射 LED1。光敏 VCC 用 3.3V，AO 接 PA1，DO 留空。</text>
+<text x="55" y="1878" font-family="Microsoft YaHei, sans-serif" font-size="28" fill="#163047">光路（非电线）</text>
+<rect x="65" y="1900" width="365" height="73" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="90" y="1946" font-family="Microsoft YaHei, sans-serif" font-size="27" fill="#163047">LED1 发光面</text>
+<path d="M445 1937 L1280 1937" stroke="#c89827" stroke-width="7" fill="none"/>
+<rect x="710" y="1890" width="350" height="92" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="735" y="1928" font-family="Microsoft YaHei, sans-serif" font-size="25" fill="#163047">轻纸片遮光闸</text>
+<text x="735" y="1961" font-family="Microsoft YaHei, sans-serif" font-size="21" fill="#163047">后续由舵机带动</text>
+<rect x="1300" y="1900" width="435" height="73" rx="12" fill="#ffffff" stroke="#d5dfe7" stroke-width="2"/>
+<text x="1325" y="1946" font-family="Microsoft YaHei, sans-serif" font-size="27" fill="#163047">光敏元件 · 接收面</text>
+<text x="55" y="2033" font-family="Microsoft YaHei, sans-serif" font-size="23" fill="#163047">先近距离对准并加纸筒遮杂光；光路可行性、阈值、速率和机械行程均以实测为准。</text>
+</svg>

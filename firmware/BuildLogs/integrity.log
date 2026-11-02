@@ -1,0 +1,11 @@
+PASS: original baseline unchanged; all Keil file references exist; XML parses without BOM; clock/device/scatter preserved; HEX checksums valid.
+Modified baseline files:
+Project.uvoptx
+Project.uvprojx
+Hardware/controls.c
+Hardware/controls.h
+Hardware/display.c
+Hardware/ui_text.h
+Hardware/ui_text_list.h
+Hardware/zh12.h
+User/main.c

@@ -1,0 +1,1 @@
+PASS: UART parsing/overflow recovery, stop priority, knob limits, busy rejection, real OLED renderer bounds and six framebuffer exports.
